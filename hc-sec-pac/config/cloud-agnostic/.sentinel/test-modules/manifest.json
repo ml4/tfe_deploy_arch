@@ -1,0 +1,316 @@
+{
+	"records": [
+		{
+			"key": "test/restrict-resources-by-module-source/pass-direct-nested-module/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-resources-by-module-source/fail-nested-modules-2/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-provisioners/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-by-workspace-name/pass-dev/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/require-all-providers-have-version-constraint/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-local-exec-commands/fail-constant-value/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-proposed-monthly-cost/fail/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-and-percentage-increase/fail-limit/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-providers/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-and-percentage-increase/fail-percent-increase/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/prevent-non-root-providers/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-local-exec-commands/fail-reference/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-resources-by-module-source/fail-non-nested-modules/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/prevent-remote-exec-provisioners-on-null-resources/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-local-exec-commands/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-resources-by-module-source/pass-non-nested-modules/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/allowed-provisioners/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/allowed-provisioners/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/require-all-modules-have-version-constraint/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/require-all-modules-have-version-constraint/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-resources-by-module-source/fail-nested-modules/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/evaluate-variables-in-nested-modules/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-resources-by-module-source/fail-direct-nested-module/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/allowed-providers/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-resources-by-module-source/pass-nested-modules/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-providers/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-by-workspace-name/pass-prod/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/prevent-destruction-of-prohibited-resources/fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/allowed-providers/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-resources/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/allowed-datasources/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-and-percentage-increase/pass-no-estimates/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-by-workspace-name/pass-qa/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-datasources/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-proposed-monthly-cost/pass/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-provisioners/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/prevent-destruction-of-prohibited-resources/pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-by-workspace-name/fail-dev/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/prevent-remote-exec-provisioners-on-null-resources/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-by-workspace-name/fail-qa/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/allowed-resources/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-datasources/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-by-workspace-name/pass-no-estimates/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/allowed-datasources/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-proposed-monthly-cost/pass-no-estimates/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/allowed-resources/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/require-all-providers-have-version-constraint/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-and-percentage-increase/pass/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/prohibited-resources/fail/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-by-workspace-name/fail-prod/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/limit-cost-by-workspace-name/fail-other/tfrun-functions",
+			"source": "../../../common-functions/tfrun-functions/tfrun-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfrun-functions/tfrun-functions.sentinel"
+		},
+		{
+			"key": "test/prevent-non-root-providers/pass/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/ml4/Keep/knightlore/deploy/hc-sec-pac/config/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		}
+	]
+}

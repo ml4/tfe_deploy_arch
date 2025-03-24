@@ -1,0 +1,79 @@
+# This policy uses the tfconfig/v2 import to allow data sources contained in an allowed list.
+
+# Import common-functions/tfconfig-functions/tfconfig-functions.sentinel
+# with alias "config"
+import "tfconfig-functions" as config
+
+# List of allowed data sources
+allowed_list = [
+  "aws_ami",
+  "aws_availability_zones",
+  "aws_caller_identity",
+  "aws_cloudwatch_log_group",
+  "aws_ecr_repository",
+  "aws_iam_policy_document",
+  "aws_iam_session_context",
+  "aws_kms_key",
+  "aws_network_interface",
+  "aws_partition",
+  "aws_region",
+  "aws_route53_zone",
+  "aws_s3_bucket",
+  "aws_secretsmanager_secret",
+  "aws_secretsmanager_secret_version",
+  "aws_secretsmanager_secrets",
+  "aws_subnet",
+  "aws_subnets",
+  "aws_vpc",
+  "aws_vpc_endpoint_service",
+  "azurerm_client_config",
+  "azurerm_disk_encryption_set",
+  "azurerm_dns_zone",
+  "azurerm_image",
+  "azurerm_key_vault",
+  "azurerm_key_vault_secret",
+  "azurerm_log_analytics_workspace",
+  "azurerm_private_dns_zone",
+  "azurerm_resource_group",
+  "azurerm_storage_account",
+  "azurerm_storage_container",
+  "azurerm_subnet",
+  "azurerm_subscription",
+  "azurerm_virtual_machine_scale_set",
+  "cloudinit_config",
+  "google_client_config",
+  "google_compute_image",
+  "google_compute_network",
+  "google_compute_subnetwork",
+  "google_compute_zones",
+  "google_dns_managed_zone",
+  "google_kms_crypto_key",
+  "google_kms_key_ring",
+  "google_netblock_ip_ranges",
+  "google_project",
+  "google_secret_manager_secret_version",
+  "google_storage_project_service_account",
+  "hcp_packer_artifact",
+  "hcp_packer_version",
+  "local_file",
+  "tfe_organization",
+  "tfe_project",
+  "tfe_team",
+  "tfe_variable_set",
+  "tfe_variables",
+  "tfe_workspace",
+  "tls_certificate",
+]
+
+# Get all Data Sources
+allDatasources = config.find_all_datasources()
+
+# Filter to data sources with violations
+# Warnings will be printed for all violations since the last parameter is true
+violatingDatasources = config.filter_attribute_not_in_list(allDatasources,
+                     "type", allowed_list, true)
+
+# Main rule
+main = rule {
+ length(violatingDatasources["messages"]) is 0
+}

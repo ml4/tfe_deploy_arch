@@ -1,0 +1,55 @@
+name: Global Replace
+
+on:
+  workflow_dispatch:
+
+jobs:
+  global_replace:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Extract project name
+        id: extract
+        run: |
+          echo "${{ github.event.repository.name }}" | sed 's/.*-\(.*$\)/\1/' >> project_name
+          echo "::set-output name=project_name::$(cat project_name)"
+
+      - name: Set environment variables
+        run: |
+          echo "PROJECT_NAME=$(cat project_name)" >> $GITHUB_ENV
+          echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
+          echo "OWNER_NAME=${{ github.repository_owner }}" >> $GITHUB_ENV
+
+      - name: Global Replace REPO_NAME
+        run: |
+          # Perform global replace on all files
+          find . -type f -name README.md -exec sed -i 's/%%REPO_NAME%%/${{ env.REPO_NAME }}/g' {} +
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add -A
+          git commit -m "Perform global replace for REPO_NAME"
+
+      - name: Global Replace PROJECT_NAME and OWNER_NAME
+        run: |
+          # Perform global replace on all files
+          find . -type f -name \*.tf     -exec sed -i 's/%%PROJECT_NAME%%/${{ env.PROJECT_NAME }}/g' {} +
+          find . -type f -name \*.tfvars -exec sed -i 's/%%PROJECT_NAME%%/${{ env.PROJECT_NAME }}/g' {} +
+          find . -type f -name \*.tf     -exec sed -i 's/%%OWNER_NAME%%/${{ env.OWNER_NAME }}/g' {} +
+          find . -type f -name \*.tfvars -exec sed -i 's/%%OWNER_NAME%%/${{ env.OWNER_NAME }}/g' {} +
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          rm -f project_name 2>/dev/null
+          git add -A
+          git commit -m "Perform global replace for PROJECT_NAME"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
