@@ -1,6 +1,4 @@
 # tfe_deploy_arch
-<<<<<<< HEAD
-=======
 
 This repo is a collection of resources which can be used to shift the TFE onboarding process left so that the platform team is hands off e2e. That is the target. However, this repo only contains Terraform code for automation and does not include additional logic required to integrate AAD, ServiceNow or other enterprise platforms at your organisation - code for that will always be site-specific so is omitted.
 
@@ -49,4 +47,3 @@ ap-northeast-1,10.160.0.0/16
 
 Let your HashiCorp account team know if you have any questions.
 
->>>>>>> 26c8c8d (Add initial)
